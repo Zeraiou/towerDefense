@@ -68,7 +68,7 @@ class Enemy extends Sprite{
 
 	update(direction) {
 		this.draw()
-		this.drawHitbox()
+		//this.drawHitbox()
 		this.drawHealthBar()
 		super.updateFrames()
 

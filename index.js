@@ -19,8 +19,8 @@ player.cash = 500
 const enemies = []
 
 let lastEnemyIndex = 0
-let amountWaves = 0
-spawnWaves(1)
+let amountWaves = 4
+spawnWaves(5)
 
 function spawnWaves(amountOfEnemy) {
 	for (let i = 0; i < amountOfEnemy; i++) {
